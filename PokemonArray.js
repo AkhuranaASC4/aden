@@ -13,5 +13,5 @@ myPokemonRoster.length
 varmyPokemonRoster = ["pikachu, charmander, wartortle, butterfree,"];
 
 for (var i = 0; i < 5 ; i++){
-    console.log(myPokemonroster[i]);
+    console.log(myPokemonroster[i]);c
 }

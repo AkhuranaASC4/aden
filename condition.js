@@ -5,3 +5,5 @@ if (num % 2 ! = 0){
 } else {
     console.log ("Number is even")
 }
+
+
