@@ -1,0 +1,11 @@
+img{
+ /*margin-right: auto;
+ margin-top: auto;*/
+width:128px;
+height:128px;
+}
+
+#title {
+     display: flex;
+  justify-content: center;
+}
