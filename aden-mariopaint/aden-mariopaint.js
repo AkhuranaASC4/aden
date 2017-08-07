@@ -31,8 +31,8 @@ function draw() {
  }
  
 var shapes = [ "circle", "rectangle", "triangle"];
-var shapes = random(shapes);  // select random word
-text(shapes,10,50);  // draw the word
+// var shapes = random(shapes);  // select random word
+// text(shapes,10,50);  // draw the word
 
 
 

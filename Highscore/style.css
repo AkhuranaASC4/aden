@@ -1,0 +1,35 @@
+p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+
+
+}
+h1 {
+color: black;
+font-size: 30px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 30px;
+    color: black;
+}
+/*#YO button{
+    width: 100px;
+    height: 100px;
+    color: red;
+}*/
+#new{
+    display:flex;
+    justify-content: space-around;
+}
+/*body{
+    background-image: url('https://s-media-cache-ak0.pinimg.com/736x/a5/f2/92/a5f292c190068a898c92eb543e5cc144--vinyl-cover-cover-art.jpg');
+}*/
+form{
+    font-size: 50px; 
+}
