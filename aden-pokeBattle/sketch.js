@@ -1,6 +1,6 @@
-var rect1 = 100
-var button;
-var newButton;
+let rect1 = 100
+let button;
+let newButton;
 
 
 
@@ -20,17 +20,21 @@ button.mousePressed(click);
 
 newButton = createButton('Attack');
 newButton.position(80, 400);
-newButton.mousePressed(click);
+newButton.mousePressed(secondClick);
 
 }
 
-function change(){
-}
+function secondClick(){
+  $("Attack").click(SecondClick())
+     $(body).append("<h1> Your Opponent has been attacked </h1>");
+ 
+ };
+
 
 function click(){
     fill('black')
     rect(400,400,200,100)
-    fill('yellow')
-    rect(800,400,200,100)
+     fill('yellow')
+    rect(800,400,200,100)  
 }
 
